@@ -4,6 +4,7 @@
     <data-source source="LOCAL" name="w21adb6@dbclass.cs.pdx.edu" uuid="a7063453-ba3d-4d8a-b4d0-b8a1abbd3f30">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
+      <schema-control>AUTOMATIC</schema-control>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://dbclass.cs.pdx.edu:5432/w21adb6</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
